@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+}
+
+body {
+  position: relative;
+}
+
+h1 {
+  color: white;
+}
+
+.nav {
+  width: 100vw;
+  height: 100px;
+  background-color: rgba(151, 147, 147, 0.452);
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  position: sticky;
+  top: 0;
+}
+
+
+ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(9, 128, 19);
+  font-size: 26px;
+  font-weight: 200;
+}
+
+a:hover {
+  color: rgb(199, 15, 31);
+}
+
+.logo-div {
+  width: 50%;
+  padding-left: 3%;
+}
+
+.logo{
+  display: flex-start;
+  max-width: 5vw;
+  border-radius: 50%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+// ! Home Section
+.img-home {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../assets/cover1.jpg');
+  background-repeat: no-repeat;
+  // background-size: contain;
+  background-size: cover;
+  background-attachment: fixed;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+}
+
+h2{
+  text-align: center;
+  margin-top: 5%;
+  font-size: 30px;
+}
+
+.about-para {
+  display: flex;
+}
+
+p {
+  padding: 3%;
+}
+
+hr {
+  border: solid black 1px;
+  width: 70%;
+  
+}
+
+// ! Bar Section
+
+
+
+
+
+// ! Events Section
+
+.event-img-div{
+  justify-content: space-evenly;
+  display: flex;
+  width: 100%;
+  padding-bottom:5% ;
+}
+
+
+.img-events {
+  width: 250px;
+  height: 450px;
+  padding-top: 3%;
+  
+}
+
+// ! Gallery Section
+
+.gallery-img-div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 60%;
+}
+
+.img-gallery {
+  width: 300px;
+  height: 350px;
+  margin: 1%;
+}
+
+// ! Contact Section
+.contact-div {
+  display: flex;
+  padding-top: 2%;
+}
+
+.contact-info {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  p{
+    padding: 1%;
+  }
+}
+
+.icon-div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  a {
+    color: black;
+  }
+}
+
+.map-div {
+  width: 50vw;
+}
+
+.map {
+  width: 100%;
+}
+
+
+
+// ! Footer Section
+
+.img-footer{
+  width: 100vw;
+  height: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  width: 35%;
+  padding-top: 2%;
+}
