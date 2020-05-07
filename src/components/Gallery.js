@@ -11,9 +11,12 @@ import eight from '../assets/eight.jpg'
 class Gallery extends React.Component {
   render() {
     return (
+      <>
+        <div className="gallery-parallax">
+        <h2>GALLERY</h2>
+        </div>
       <section id="gallery" className="gallery-section">
-        
-      <h2>GALLERY</h2>
+ 
       <div className="gallery-img-div">
       <img className="img-gallery" src={one} alt="1"></img>
       <img className="img-gallery" src={two} alt="2"></img>
@@ -26,6 +29,7 @@ class Gallery extends React.Component {
       </div>
       <hr/>
       </section>
+      </>
     )
   }
 }

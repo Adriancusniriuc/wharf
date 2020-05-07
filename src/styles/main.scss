@@ -95,19 +95,73 @@ hr {
 
 // ! Bar Section
 
+.carousel{
+  height: 50vh;
+  width: 100vw;
+  overflow: hidden;
+}
 
+// .slide-div {
+//   width: 100%;
+//   background-color: yellow;
+//   height: 100%;
+  
+// }
+
+.slide-img {
+  width: 400px;
+  margin: 5%;
+  height: 500px;
+}
 
 
 
 // ! Events Section
+
+.events-parallax {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: white;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url('../assets/barparallax.png');
+  h2 {
+    margin: 10%;
+    font-size: 5vw;
+  }
+}
 
 .event-img-div{
   justify-content: space-evenly;
   display: flex;
   width: 100%;
   padding-bottom:5% ;
+  flex-direction: column;
 }
 
+.event{
+  display: flex;
+  .img-events {
+    width: 47%;
+    padding: 2%;
+  }
+  p{
+    width: 80%;
+    text-align: justify;
+  }
+  .event-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // width: 80%
+  }
+}
 
 .img-events {
   width: 250px;
@@ -116,7 +170,28 @@ hr {
   
 }
 
+
+
+
 // ! Gallery Section
+
+.gallery-parallax {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url('../assets/one.jpg');
+  h2 {
+    margin: 10%;
+    font-size: 5vw;
+  }
+}
 
 .gallery-img-div{
   display: flex;
