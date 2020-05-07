@@ -1,3 +1,5 @@
+@import "react-alice-carousel/lib/scss/alice-carousel.scss";
+
 * {
   margin: 0;
 }
@@ -95,24 +97,42 @@ hr {
 
 // ! Bar Section
 
-.carousel{
-  height: 50vh;
-  width: 100vw;
-  overflow: hidden;
-}
+// .carousel{
+//   height: 50vh;
+//   width: 100vw;
+//   overflow: hidden;
+// }
 
 // .slide-div {
 //   width: 100%;
 //   background-color: yellow;
 //   height: 100%;
-  
 // }
 
 .slide-img {
-  width: 400px;
-  margin: 5%;
-  height: 500px;
+  // max-width: 300px;
+  // margin: 5%;
+  // height: 500px;
 }
+
+
+.carousel{
+  height: 500px;
+  // width: inherit;
+  width: 90%;
+}
+
+.carouselImage{
+max-width: 500px;
+margin: 3%;
+display: inline-block;
+}
+
+.item{
+width: 100vw;
+height: 50vh;
+}
+
 
 
 
