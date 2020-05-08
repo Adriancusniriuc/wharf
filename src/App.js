@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+// import './App.css';
 import  './styles/main.scss'
 // import Nav from './components/common/Nav'
 import Home from './components/common/Home'
@@ -8,6 +8,7 @@ import Events from './components/Events'
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/common/Footer';
+import Nav from './components/common/Nav'
 
 // import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
@@ -16,7 +17,7 @@ function App() {
     <div>
       {/* <BrowserRouter> */}
       {/* <Switch></Switch> */}
-      {/* <Nav /> */}
+      <Nav />
       <Home/>
       <Bar/>
       <Events />
